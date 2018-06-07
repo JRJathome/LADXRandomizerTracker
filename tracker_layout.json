@@ -1,0 +1,80 @@
+﻿{
+  "map_enabled": true,
+  "auto_pin_capturing_locations": false,
+  "auto_unpin_on_clear": true,
+  "allow_resize": false,
+  "layout_swap_left_right": false,
+  "disabled_image_filter": "grayscale, dim",
+  "layouts": {
+    "shared_item_grid": {
+      "type": "array",
+      "orientation": "vertical",
+      "content": [
+        {
+          "type": "array",
+          "orientation": "horizontal",
+          "content": [
+            {
+              "type": "itemgrid",
+              "v_alignment": "center",
+              "h_alignment": "center",
+              "item_margin": "0,0,2,10",
+			  "item_size": 64,
+              "rows": [
+				[ "bow", "boomerang", "hookshot", "lift1", "flippers", ],
+				[ "feather", "firerod", "ocarina", "bomb", "boots", ],
+				[ "shovel", "yoshi", "shells", "leaf", "mushroomandpowder", ],
+				[ "armor", "shield", "sword", "chomp", "walrus" ],
+				[ "marin", "fish", "frog", "ghost", "rooster", ],
+				[ "tail", "slime", "angler", "face", "eagle" ],
+              ]
+            },
+            {
+              "type": "array",
+              "orientation": "horizontal",
+              "content": [
+
+                {
+                  "type": "array",
+                  "orientation": "horizontal",
+                  "content": [
+                    {
+                      "type": "itemgrid",
+                      "h_alignment": "center",
+		      "v_alignment": "center",
+                      "item_margin": "2,5",
+                      "item_size": 48,
+                      "badge_font_size": 11,
+                      "rows": [
+			[ "tc_label", "cello", "cello_treasures" ],
+                        [ "bg_label", "conch", "conch_treasures" ],
+                        [ "kc_label", "bell", "bell_treasures" ],
+                        [ "at_label", "harp", "harp_treasures" ],
+			[ "cm_label", "marimba", "marimba_treasures" ],
+                        [ "fs_label", "triangle", "triangle_treasures" ],
+                        [ "et_label", "organ", "organ_treasures" ],
+                        [ "tr_label", "drum", "drum_treasures" ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "tracker_default": {
+      "type": "container",
+      "width": 500,
+      //"height": 250,
+      "background": "#212121",
+      "content": {
+        "type": "layout",
+        "dropshadow": true,
+        "margin": 10,
+        "key": "shared_item_grid"
+      }
+    }
+  }
+}

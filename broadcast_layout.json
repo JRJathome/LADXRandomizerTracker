@@ -1,0 +1,48 @@
+﻿{
+  "type": "array",
+  "background": "#FF00FF",
+  "orientation": "horizontal",
+  "margin": "0",
+  "content": [
+    {
+      "type": "array",
+      "dropshadow": false,
+      "orientation": "horizontal",
+      "content": [
+        {
+          "type": "itemgrid",
+          "h_alignment": "center",
+          "item_margin": "1,2.5",
+          "item_size": 32,
+          "badge_font_size": 8,
+          "rows": [
+            [ "bow", "boomerang", "hookshot", "lift1", "flippers", "tail" ],
+            [ "feather", "firerod", "ocarina", "bomb", "boots", "slime" ],
+            [ "shovel", "yoshi", "shells", "leaf", "mushroomandpowder", "angler" ],
+            [ "armor", "shield", "sword", "chomp", "walrus", "face" ],
+            [ "marin", "fish", "frog", "ghost", "rooster", "eagle" ],
+          ]
+        }
+      ]
+    },
+    {
+      "type": "array",
+      "dropshadow": false,
+      "orientation": "horizontal",
+      "content": [
+        {
+          "type": "itemgrid",
+          "v_alignment": "center",
+          "item_margin": "1,2.5",
+          "item_size": 32,
+          "rows": [
+            [ "cello", "conch", ],
+            [ "bell", "harp", ],
+            [ "marimba", "triangle", ],
+            [ "organ", "drum", ],
+          ]
+        }
+      ]
+    },
+  ]
+}
